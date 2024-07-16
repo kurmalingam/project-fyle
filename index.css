@@ -1,6 +1,8 @@
 body{
     background-color: whitesmoke;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+      
 }
 .main{
     background-color:whitesmoke;
@@ -179,3 +181,62 @@ section{
     align-items: center;
     gap: 40px;
 }
+
+  
+@media screen and (max-width: 768px) {
+
+     
+    body {
+        font-size: 14px;
+        text-align: center;
+      }
+
+    .main {
+        width: 100%;
+      margin: 40px;
+    }
+    .but1{
+        margin-top: 320px;
+        margin-left: 200px;
+        width: 100px;
+    }
+  
+    .container {
+      flex-direction: row;
+      gap: 10px;
+    }
+  
+    .image1 {
+        width: 200px;
+        height: 300px;
+      margin: 10px auto;
+    }
+  
+    .form {
+      width: 60%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    #im2,#im3,#im5{
+        width: 140px;
+    }
+  
+    .second, .third, .forth, .five, .six, .sec2 {
+      margin-top: 20px;
+    }
+  
+    .forthone {
+      flex-direction: row;
+    }
+  
+    .five {
+      flex-direction: row;
+      align-items: center;
+      margin-left: 0;
+    }
+  
+    .last {
+      flex-wrap: wrap;
+    }
+  }
+  
